@@ -92,8 +92,8 @@ async function revisarRecordatoriosPendientes() {
         body: vencidos.length === 1
           ? `${vencidos[0].titulo}${vencidos[0].monto ? ' — ' + vencidos[0].monto : ''}`
           : `Tenés ${vencidos.length} recordatorios pendientes`,
-        icon: './icon-192.png',
-        badge: './icon-192.png',
+        icon: './launchericon-192x192.png',
+        badge: './launchericon-192x192.png',
         tag: 'recordatorios-mi-libreta'
       });
     }
